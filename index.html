@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Francisco Vargas: proyectos de desarrollo web y móvil, perfil de GitHub y aprendizaje de Power BI, DAX y Power Query."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>Francisco Vargas | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Ir al inicio">FV<span>.</span></a>
+      <nav class="navigation" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#stack">Stack</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> DISPONIBLE PARA NUEVOS RETOS</p>
+          <h1>Hola, soy <span class="name-highlight">Francisco</span>.<br />Desarrollo aplicaciones<br />web y móviles<span class="accent-dot">.</span></h1>
+          <p class="hero-description">
+            Desarrollo proyectos web y móviles, y estoy aprendiendo Power BI
+            desde cero: DAX y Power Query con Copilot e inteligencia artificial.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#proyectos">Ver mis proyectos <span aria-hidden="true">↓</span></a>
+            <a class="button button-outline" href="#stack">Lo que estoy aprendiendo <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>Desarrollo web y móvil</span>
+            <span class="meta-separator" aria-hidden="true">/</span>
+            <span>Aprendiendo Power BI</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Tarjeta de presentación">
+          <div class="card-topline"><span>PORTFOLIO / 2026</span><span>01 — 04</span></div>
+          <div class="code-visual" aria-hidden="true">
+            <div class="code-editor-bar">
+              <span class="editor-dot"></span>
+              <span class="editor-dot"></span>
+              <span class="editor-dot"></span>
+              <span class="editor-filename">portfolio.ts</span>
+            </div>
+            <div class="code-editor-content">
+              <div><span class="code-line-number">01</span><span class="code-purple">const</span> developer = {</div>
+              <div><span class="code-line-number">02</span>&nbsp;&nbsp;name: <span class="code-green">"Francisco"</span>,</div>
+              <div><span class="code-line-number">03</span>&nbsp;&nbsp;focus: [</div>
+              <div><span class="code-line-number">04</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"web"</span>,</div>
+              <div><span class="code-line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"mobile"</span>,</div>
+              <div><span class="code-line-number">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"data"</span></div>
+              <div><span class="code-line-number">07</span>&nbsp;&nbsp;],</div>
+              <div><span class="code-line-number">08</span>&nbsp;&nbsp;learning: <span class="code-green">"Power BI"</span></div>
+              <div><span class="code-line-number">09</span>};</div>
+            </div>
+            <span class="code-decoration">{"< />"}</span>
+          </div>
+          <div class="card-caption">
+            <div>
+              <span class="caption-label">ENFOQUE ACTUAL</span>
+              <p>Desarrollo web · Análisis de datos</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+        </aside>
+        <span class="hero-index" aria-hidden="true">01 / PRESENTACIÓN</span>
+      </section>
+
+      <section class="intro-section" id="sobre-mi">
+        <div class="page-width intro-grid">
+          <p class="eyebrow section-label"><span>01</span> / SOBRE MÍ</p>
+          <div>
+            <h2>Me gusta aprender construyendo y convertir nuevas ideas en <span>proyectos propios.</span></h2>
+            <p class="intro-description">
+              Exploro el desarrollo web y móvil a través de mis proyectos públicos.
+              Ahora también estoy aprendiendo Power BI desde cero, practicando DAX y
+              Power Query con Copilot e inteligencia artificial.
+            </p>
+            <a class="text-link github-link" href="https://github.com/frvargasu" target="_blank" rel="noreferrer">Conoce mis proyectos en GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack-section page-width" id="stack">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-label"><span>02</span> / HERRAMIENTAS</p>
+            <h2>Mi stack<span class="accent-dot">.</span></h2>
+          </div>
+          <p class="section-aside">Lo que uso y lo que<br />estoy aprendiendo.</p>
+        </div>
+        <div class="stack-grid" id="stack-list" aria-live="polite"></div>
+      </section>
+
+      <section class="projects-section" id="proyectos">
+        <div class="page-width">
+          <div class="section-heading projects-heading">
+            <div>
+              <p class="eyebrow section-label"><span>03</span> / TRABAJO SELECCIONADO</p>
+              <h2>Proyectos<span class="accent-dot">.</span></h2>
+            </div>
+            <a class="text-link github-link" href="https://github.com/frvargasu" target="_blank" rel="noreferrer">
+              Ver GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="projects-grid" id="projects-list" aria-live="polite">
+            <p class="projects-message">Cargando proyectos de GitHub…</p>
+          </div>
+          <p class="github-note" id="github-note"></p>
+        </div>
+      </section>
+
+      <section class="contact-section page-width" id="contacto">
+        <p class="eyebrow section-label"><span>04</span> / SIGUIENTE PASO</p>
+        <div class="contact-content">
+          <h2>¿Buscas a alguien<br />con ganas de <span>construir?</span></h2>
+          <a class="contact-button" href="https://github.com/frvargasu" target="_blank" rel="noreferrer">
+            Conversemos por GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/frvargasu" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="wordmark" href="#inicio" aria-label="Volver al inicio">FV<span>.</span></a>
+      <p>Francisco Vargas <span>© 2026</span></p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+  </body>
+</html>
